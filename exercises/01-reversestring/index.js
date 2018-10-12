@@ -24,10 +24,9 @@
 
 // 03 use reduce
 function reverse(str) {
-  debugger;
   return str.split('').reduce((accu, curr) => curr + accu, '');
 }
 
-reverse('abc ')
+reverse('abc ');
 
 module.exports = reverse;
